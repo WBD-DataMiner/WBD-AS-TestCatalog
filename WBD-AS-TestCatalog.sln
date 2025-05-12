@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WBD-AS-TestCatalog", "WBD-AS-TestCatalog.csproj", "{FFD6EB81-F33D-4BD8-BC03-16DD6768DAE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{C4FE60FF-4C25-4677-933E-BF1EA773AA57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{753AC872-954E-4838-88FE-2B40FE9B81CA}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFD6EB81-F33D-4BD8-BC03-16DD6768DAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD6EB81-F33D-4BD8-BC03-16DD6768DAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD6EB81-F33D-4BD8-BC03-16DD6768DAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD6EB81-F33D-4BD8-BC03-16DD6768DAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{753AC872-954E-4838-88FE-2B40FE9B81CA} = {C4FE60FF-4C25-4677-933E-BF1EA773AA57}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFCC159E-9BE7-4DDF-AD51-2B0B6BED8C21}
+	EndGlobalSection
+EndGlobal
